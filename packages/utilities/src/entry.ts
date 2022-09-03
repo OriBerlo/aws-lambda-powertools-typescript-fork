@@ -1,4 +1,3 @@
-import { InMemoryCircuitBreaker } from './InMemoryCircuitBreaker';
 import { DynamoDBCircuitBreaker } from './DynamoDBCircuitBreaker';
 
 function failGenerator(a: number, b: number, c: number): number {
